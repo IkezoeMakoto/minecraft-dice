@@ -13,3 +13,5 @@ minecraft上で `/reload` を実行
 
 ## 出力
 `[@p] <1D6>? <1D10>?? <1D100>???`
+
+![出力例](https://raw.githubusercontent.com/IkezoeMakoto/minecraft-dice/master/image.png)
