@@ -6,7 +6,7 @@ execute at @a[scores={R_Click=1..}] run scoreboard players set @p RNG 5
 # rng 実行
 function rng:exec
 # 表示用に 1 追加
-#scoreboard players operation @p NUM += 1 NUM
+scoreboard players operation @p NUM += 1 NUM
 # 代入
 scoreboard players operation @p 1d6 = @p NUM
 
@@ -18,7 +18,7 @@ execute at @a[scores={R_Click=1..}] run scoreboard players set @p RNG 9
 # rng 実行
 function rng:exec
 # 表示用に 1 追加
-#scoreboard players operation @p NUM += 1 NUM
+scoreboard players operation @p NUM += 1 NUM
 # 代入
 scoreboard players operation @p 1d10 = @p NUM
 
@@ -30,7 +30,7 @@ execute at @a[scores={R_Click=1..}] run scoreboard players set @p RNG 99
 # rng 実行
 function rng:exec
 # 表示用に 1 追加
-#scoreboard players operation @p NUM += 1 NUM
+scoreboard players operation @p NUM += 1 NUM
 # 代入
 scoreboard players operation @p 1d100 = @p NUM
 
